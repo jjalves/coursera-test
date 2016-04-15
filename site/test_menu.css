@@ -1,0 +1,68 @@
+html,body{
+	height: 100%;
+}
+body {
+	/*background-repeat: no-repeat;
+    background:linear-gradient( 
+      rgba(0, 2, 5, 1) 0%, 
+      rgba(0, 15, 45, 1) 40%,
+      rgba(0, 15, 45, 1) 50%,
+      rgba(0, 2, 5, 1) 100%);*/
+    
+    /*width: 100%;*/
+    /*height: 100%;*/
+    font-family: Arial;
+	min-height: 100%;
+
+	background-color:#000830;
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000830, endColorstr=#000510);
+	background-image:-moz-linear-gradient(bottom, #000830 0%, #000510 33%,#000830 100%);
+	background-image:linear-gradient(bottom, #000830 0%, #000510 33%,#000830 100%);
+	background-image:-webkit-linear-gradient(bottom, #000830 0%, #000510 33%,#000830 100%);
+	background-image:-o-linear-gradient(bottom, #000830 0%, #000510 33%,#000830 100%);
+	background-image:-ms-linear-gradient(bottom, #000830 0%, #000510 33%,#000830 100%);
+	background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0%,#000830), color-stop(33%,#000510),color-stop(100%,#000830));
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	min-height: 100%; 
+}
+
+nav {
+	margin: 0px 5px 5px 5px;
+    padding: 0px;
+    min-width: 50px; 
+}
+
+nav ul {
+    background: linear-gradient(90deg, 
+      rgba(200, 245, 255, 0.05) 0%, 
+      rgba(200, 245, 255, 0.2) 25%, 
+      rgba(200, 245, 255, 0.2) 75%, 
+      rgba(200, 245, 255, 0.05) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 12px; 
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover{
+	background-color: rgba(200, 245, 255,0.5);
+}
+
+h1, div{
+	color: white;
+}
